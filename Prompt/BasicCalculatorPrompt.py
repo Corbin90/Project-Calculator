@@ -25,3 +25,4 @@ while True:
         break
     else:
         print("Error input!")
+        print("Please enter a different input")
