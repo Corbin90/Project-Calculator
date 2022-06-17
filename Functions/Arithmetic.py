@@ -12,7 +12,13 @@ def divide(num1, num2):
         return int(total)
     else:
         return float(total)
+def divideWithRemainder(num1, num2):
+    total = num1 / num2
+    remainder = num1 % num2
+    return f"{int(total)} is the answer with a remainder of {remainder}"
 
+"""print(divideWithRemainder(18, 9))
+print(divideWithRemainder(20, 9))
 #Division test cases
 print("Division")
 print(divide(200, 6)) # Return decimal
@@ -33,5 +39,5 @@ print("Addition")
 print(addition(2,3)) # Two positive return positive
 print(addition(-2,-3)) # Two negatives return negative
 print(addition(-3, 4)) # Negative then positive returning positive
-print(addition(3,-4)) # Positive then negative returning negative)
+print(addition(3,-4)) # Positive then negative returning negative)"""
 
