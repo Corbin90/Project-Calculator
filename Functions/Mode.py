@@ -18,3 +18,6 @@ test = [2,2,2,3,2,2,1,2,3,4,5,4,9,2,3,4]
 print(mode(test))     
 test = [4,4,4,4,4,8,8,9,10,10,10,10,10,10,2,3,4,10,10]
 print(mode(test))  
+test = input()
+user_list = test.split()
+print(mode(user_list))

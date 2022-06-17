@@ -1,12 +1,3 @@
-# Basic Calculator
-"""
-Functions include:
--Addition 
--Subtraction 
--Multiplication 
--Division without the remainder
--Division with the remainder
-"""
 def addition(num1, num2):
     total = num1 + num2
     return f"Answer: {num1} + {num2} = {total} \n" 
@@ -26,7 +17,15 @@ def divideWithRemainder(num1, num2):
     total = num1 / num2
     remainder = num1 % num2
     return f"Answer: {int(total)}, Remainder: {remainder} \n"
-
+def percentage(num1, num2):
+    total = (num1 / num2) * 100
+    if total - int(total) == 0:
+        return f"Answer: {int(total)}% \n"
+    else:
+        return f"Answer: {round(total, 2)}% \n"
+def power(num1, num2):
+    total = num1 ** num2
+    return f"Answer: {num1} ^ {num2} = {total} \n"
 while True:
     print("What operation would you like to use?")
     print("1. Addition")

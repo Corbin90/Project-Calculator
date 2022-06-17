@@ -1,0 +1,6 @@
+Functions include:
+-Addition 
+-Subtraction 
+-Multiplication 
+-Division without the remainder
+-Division with the remainder
