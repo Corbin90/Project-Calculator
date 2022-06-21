@@ -7,9 +7,9 @@ def mean_average(numbers):
         total += int(number)
     average = total / len(numbers)
     if average - int(average) == 0:
-        return int(total/len(numbers))
+       return f"The mean is {int(total/len(numbers))}"
     else:
-        return round(total/len(numbers), 2)
+        return f"The mean is {round(total/len(numbers), 2)}"
 
 # Test Case
 #test = [9,3,2,3,4,5,2]

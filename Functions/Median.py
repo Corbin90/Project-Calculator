@@ -7,11 +7,11 @@ def median(nums):
     if len(nums) % 2 == 0:
         for num in range((len(nums)//2) + 2):
             num_list.append(num)
-        return (num_list[-1] + num_list[-2])/2
+        return f"The median is {(num_list[-1] + num_list[-2])/2}"
     else:
         for num in range((len(nums)//2) + 1):
             num_list.append(num)
-        return num_list[-1]
+        return f"The median is {num_list[-1]}"
   
 num_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(median(num_list))
